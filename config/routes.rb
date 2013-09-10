@@ -1,5 +1,9 @@
 Omrails::Application.routes.draw do
-  get "users/show"
+  get 'team' => 'pages#team'
+
+  get 'portfolio' => 'pages#portfolio'
+
+  get 'services' => 'pages#services'
 
   resources :pins
 

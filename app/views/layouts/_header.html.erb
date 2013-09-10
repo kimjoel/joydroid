@@ -1,34 +1,21 @@
-<div class="navbar navbar-fixed-top">
-  <div class="navbar-inner">
-    <div class="container">
- 
-      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
- 
-      <!-- Be sure to leave the brand out there if you want it shown -->
-      <%= link_to "JOYDROID", root_path, class: "brand" %>
- 
-      <!-- Everything you want hidden at 940px or less, place within here -->
-      <div class="nav-collapse collapse">
-      	<ul class="nav">
-	  <li><%= link_to "Home icon", root_path %></li>
-          <li><%= link_to "robot head icon", about_path %></li>
-	</ul>
-	<ul class="nav pull-right">
+  <div class="cbp-af-header">
+    <div class="cbp-af-inner">
+      <h1> JOYDROID</h1>
+      	<nav>
+	  <%= link_to "Home icon", root_path %>
+          <%= link_to "about icon", about_path %>
+          <%= link_to "services icon", services_path %>
+          <%= link_to "portfolio icon", portfolio_path %>
+          <%= link_to "team icon", team_path %>
           <% if user_signed_in? %>
-            <li><%= link_to "Add +", new_pin_path %></li>
-            <li><%= link_to "Edit Profile", edit_user_registration_path %></li>
-            <li><%= link_to "Logout", destroy_user_session_path, method: :delete %></li>
+           <%= link_to "Add +", new_pin_path %>
+           <%= link_to "Edit Profile", edit_user_registration_path %>
+           <%= link_to "Logout", destroy_user_session_path, method: :delete %>
           <% else %>
-	    <li><%= link_to "Login", new_user_session_path %></li>
+	   <%= link_to "Login", new_user_session_path %>
           <% end %>
-	</ul>
+	</nav>
       </div>
  
     </div>
   </div>
-</div>
