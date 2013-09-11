@@ -1,4 +1,6 @@
 Omrails::Application.routes.draw do
+  get 'interest' => 'pages#interests'
+
   get 'team' => 'pages#team'
 
   get 'portfolio' => 'pages#portfolio'

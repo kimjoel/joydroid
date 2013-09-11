@@ -8,6 +8,9 @@ class PagesController < ApplicationController
   def portfolio
   end
 
+  def interests
+  end
+
   def services
   end
 
