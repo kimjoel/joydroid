@@ -79,7 +79,7 @@ Omrails::Application.configure do
   }
 
   # Precompile additional assets
-  config.assets.precompile += %w( classie.js )
+  config.assets.precompile += %w(modernizr.custom.js classie.js cbpAnimatedHeader.js )
 
 
 end
