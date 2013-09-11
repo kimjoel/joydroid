@@ -64,6 +64,9 @@ module Omrails
 
     # Precomile the fonts
     config.assets.precompile << /\.(?:svg|eot|woff|ttf)$/
+    
+    # Precompile the assets
+    config.assets.precompile += ['.css','.js']   
 
     # Required for Devise on Heroku
     config.assets.initialize_on_precompile = false

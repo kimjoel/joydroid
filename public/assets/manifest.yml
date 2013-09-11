@@ -13,6 +13,12 @@ rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 application.js: application-98fd0f01aa4416c36984357586a987e4.js
 application/index.js: application-98fd0f01aa4416c36984357586a987e4.js
+cbpAnimatedHeader.js: cbpAnimatedHeader-7a66dce189cbc6b9d06c91453065334e.js
+cbpAnimatedHeader/index.js: cbpAnimatedHeader-7a66dce189cbc6b9d06c91453065334e.js
+classie.js: classie-12f24083f48cf3c05daaf19b2ff3c26f.js
+classie/index.js: classie-12f24083f48cf3c05daaf19b2ff3c26f.js
+modernizr.custom.js: modernizr.custom-3c398ded80eb650b9fb8bdbc5856a86f.js
+modernizr/index.custom.js: modernizr.custom-3c398ded80eb650b9fb8bdbc5856a86f.js
 application.css: application-ebfe95cd8afbcd9ae1285f145c7aaf87.css
 application/index.css: application-ebfe95cd8afbcd9ae1285f145c7aaf87.css
 jquery.min.map: jquery.min-959a5819c76e1508f5a8655c289c0de8.map
