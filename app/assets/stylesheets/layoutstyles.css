@@ -1,0 +1,4 @@
+.anchor {
+  position: relative;
+  top: -110px;  /* depending on the size of the sticky menu */
+}
