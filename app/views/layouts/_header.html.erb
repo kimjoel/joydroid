@@ -1,21 +1,13 @@
+<div class="container">
   <div class="cbp-af-header">
     <div class="cbp-af-inner">
       <h1> JOYDROID</h1>
       	<nav>
-	  <%= link_to "Home icon", root_path %>
-          <%= link_to "about icon", about_path %>
-          <%= link_to "services icon", services_path %>
-          <%= link_to "portfolio icon", portfolio_path %>
-          <%= link_to "team icon", team_path %>
-          <% if user_signed_in? %>
-           <%= link_to "Add +", new_pin_path %>
-           <%= link_to "Edit Profile", edit_user_registration_path %>
-           <%= link_to "Logout", destroy_user_session_path, method: :delete %>
-          <% else %>
-	   <%= link_to "Login", new_user_session_path %>
-          <% end %>
+          <%= link_to "about", "#about" %>
+          <%= link_to "services", "#services" %>
+          <%= link_to "portfolio", "#portfolio" %>
+          <%= link_to "team", "#team" %>
 	</nav>
-      </div>
- 
     </div>
   </div>
+</div>

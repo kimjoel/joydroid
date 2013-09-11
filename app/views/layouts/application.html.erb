@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	  <title>One Month Rails</title>
+	  <title>JOYDROID & CO</title>
 	  <%= stylesheet_link_tag    "application", :media => "all" %>
 	  <%= javascript_include_tag "application" %>
 	  <%= csrf_meta_tags %>
@@ -9,14 +9,8 @@
 	</head>
 	<body>
 		<%= render 'layouts/header' %>
-
-		<div class="container">
-			<% flash.each do |name, msg| %>
-				<%= content_tag(:div, msg, class: "alert alert-#{name}") %>
-			<% end %>
 			<%= yield %>
 			<%= render 'layouts/footer' %>
-		</div>
-
+<%= javascript_include_tag 'classie.js', 'cbpAnimatedHeader.js' %>
 	</body>
 </html>
