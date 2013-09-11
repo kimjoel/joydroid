@@ -77,4 +77,9 @@ Omrails::Application.configure do
       :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
     }
   }
+
+  # Precompile additional assets
+  config.assets.precompile += %w( classie.js )
+
+
 end
