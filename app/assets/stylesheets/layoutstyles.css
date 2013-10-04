@@ -27,9 +27,9 @@
 	-ms-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
 }
 .postcard:hover{
-	transform: rotate(0deg) scale(0.87) skew(1deg) translate(0px);
-	-webkit-transform: rotate(0deg) scale(0.87) skew(1deg) translate(0px);
-	-moz-transform: rotate(0deg) scale(0.87) skew(1deg) translate(0px);
-	-o-transform: rotate(0deg) scale(0.87) skew(1deg) translate(0px);
-	-ms-transform: rotate(0deg) scale(0.87) skew(1deg) translate(0px);
+	transform: rotate(3deg) scale(0.87) skew(1deg) translate(0px);
+	-webkit-transform: rotate(3deg) scale(0.87) skew(1deg) translate(0px);
+	-moz-transform: rotate(3deg) scale(0.87) skew(1deg) translate(0px);
+	-o-transform: rotate(3deg) scale(0.87) skew(1deg) translate(0px);
+	-ms-transform: rotate(3deg) scale(0.87) skew(1deg) translate(0px);
 }
