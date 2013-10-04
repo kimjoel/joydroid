@@ -72,12 +72,13 @@ Omrails::Application.configure do
   config.paperclip_defaults = {
     :storage => :s3,
     :s3_credentials => {
-      :bucket => ENV['AWS_BUCKET'],
       :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
       :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
     },
-    :url => 's3-ap-southeast-2.amazonaws.com',
-    :path => "joydroid/images/:class/:id.:style.:extension"
+    :s3_protocol => "https",
+    :path => "images/:class/:id.:style.:extension",
+    :bucket => "joydroid",
+    :url => ":s3_ap_url"
   }
 
 
