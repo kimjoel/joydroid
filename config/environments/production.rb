@@ -77,7 +77,7 @@ Omrails::Application.configure do
       :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
     },
     :url => ':s3_alias_url',
-    :s3_alias_url => 's3-ap-southeast-2.amazonaws.com'
+    :s3_alias_url => 's3-ap-southeast-2.amazonaws.com',
     :path => "images/:class/:id.:style.:extension"
   }
 
