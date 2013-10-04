@@ -11,3 +11,25 @@
 .portfolio {
 	text-align: center;
 }
+
+.postcard {
+	-moz-box-shadow: 3px 3px 21px #000000;
+	-webkit-box-shadow: 3px 3px 21px #000000;
+	box-shadow: 3px 3px 21px #000000;
+	transition:All 1s ease;
+	-webkit-transition:All 1s ease;
+	-moz-transition:All 1s ease;
+	-o-transition:All 1s ease;
+	transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+	-webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+	-moz-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+	-o-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+	-ms-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+}
+.postcard:hover{
+	transform: rotate(0deg) scale(0.87) skew(1deg) translate(0px);
+	-webkit-transform: rotate(0deg) scale(0.87) skew(1deg) translate(0px);
+	-moz-transform: rotate(0deg) scale(0.87) skew(1deg) translate(0px);
+	-o-transform: rotate(0deg) scale(0.87) skew(1deg) translate(0px);
+	-ms-transform: rotate(0deg) scale(0.87) skew(1deg) translate(0px);
+}
