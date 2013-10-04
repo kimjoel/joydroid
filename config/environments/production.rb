@@ -75,10 +75,8 @@ Omrails::Application.configure do
       :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
       :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
     },
-    :s3_protocol => "https",
-    :path => "images/:class/:id.:style.:extension",
-    :bucket => "joydroid",
-    :url => ":s3_ap_url"
+    :path => "joydroid/images/:class/:id.:style.:extension",
+    :s3_endpoint => "s3-ap-southeast-2.amazonaws.com"
   }
 
 
