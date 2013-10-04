@@ -78,10 +78,8 @@ Omrails::Application.configure do
     },
     :url => ':s3_alias_url',
     :s3_alias_url => 's3-ap-southeast-2.amazonaws.com',
-    :path => "images/:class/:id.:style.:extension"
+    :path => "joydroid/images/:class/:id.:style.:extension"
   }
-
-
 
 
   # Precompile additional assets
