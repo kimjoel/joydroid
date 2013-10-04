@@ -7,7 +7,7 @@
 
 <section>
 <div class="portfolio">
-	<%= link_to (image_tag pin.image(:medium)), pin %>
+	<%= link_to (image_tag pin.image(:medium), :class => "postcard"), pin.url, :target => "_blank" %>
 	<p class="description">
 		<%= pin.description %>
 	</p>
